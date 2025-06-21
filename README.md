@@ -25,16 +25,21 @@ API REST versionnée pour gérer des blagues rigolotes.
 
 ## Installation & démarrage
 
-1. Cloner le repo
-git clone https://github.com/LaMonaLisa34/Carambar-Co-Blague-Back.git
+1. Cloner le repo  
+
+git clone https://github.com/LaMonaLisa34/Carambar-Co-Blague-Back.git  
+
 cd carambar-co-blague-back
 
-2. Installer les dépendances
+2. Installer les dépendances 
+
 npm install 
 
-3. Lancer serveur
+3. Lancer serveur  
+
 node app.js 
 
-4. Documentation Swagger
+4. Documentation Swagger  
+
 http://localhost:3000/api-docs
 
