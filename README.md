@@ -43,3 +43,14 @@ node app.js
 
 http://localhost:3000/api-docs
 
+## Repos Frontend
+
+La partie frontend est disponible ici :  
+
+https://github.com/LaMonaLisa34/Carambar-Co-Blague-Front
+
+## URL de déploiement
+
+L’API est déployée sur Render et accessible ici :  
+
+[https://carambar-co-blague-back.onrender.com/api/v1/blagues](https://carambar-co-blague-back.onrender.com/api/v1/blagues)
