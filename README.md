@@ -22,11 +22,6 @@ API REST versionnée pour gérer des blagues rigolotes.
 - Swagger
 
 ---
-## Design Pattern
-models/ : définition des modèles Sequelize
-controllers/ : logique métier (CRUD)
-routes/ : définition des routes API
-app.js : point d’entrée, serveur Express
 
 ## Installation & démarrage
 
