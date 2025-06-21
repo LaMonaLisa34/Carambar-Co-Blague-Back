@@ -28,13 +28,6 @@ controllers/ : logique métier (CRUD)
 routes/ : définition des routes API
 app.js : point d’entrée, serveur Express
 
-## EndPoint API
-GET	/	Accueil - blague aléatoire (HTML)	—	curl http://localhost:3000/
-GET	/blagues	Récupère toutes les blagues	—	curl http://localhost:3000/api/v1/blagues
-GET	/blagues/random	Récupère une blague aléatoire	—	curl http://localhost:3000/api/v1/blagues/random
-GET	/blagues/:id	Récupère une blague par ID	id : ID de la blague (param URL)	curl http://localhost:3000/api/v1/blagues/5
-POST	/blagues	Ajoute une nouvelle blague	JSON : { "question": "texte", "reponse": "texte" }	bash curl -X POST http://localhost:3000/api/v1/blagues -H "Content-Type: application/json" -d '{"question":"Pourquoi...?","reponse":"Parce que..."}'
-
 ## Installation & démarrage
 
 1. Cloner le repo
